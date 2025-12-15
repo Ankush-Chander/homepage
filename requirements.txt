@@ -1,5 +1,0 @@
-mkdocs
-mkdocs-material
-pymdown-extensions
-requests
-mkdocs-rss-plugin
