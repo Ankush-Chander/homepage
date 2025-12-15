@@ -1,0 +1,132 @@
+## Project information
+site_name: Ankush Chander | DAU
+site_url: https://ankushchander.com
+site_description: Homepage of Ankush Chander, DAU
+
+
+# Copyright
+copyright: Ankush Chander
+
+## Page tree
+nav:
+    - Home: index.md
+    - About: about.md
+    # - Projects: projects.md
+    # - 'Publications': 'publications.md'
+    # - 'Teaching': 'teaching.md'
+    - 'Talks': 'talks.md'
+    # - Blog:
+    #     - blog/index.md
+
+
+
+## Configuration
+theme:
+  name: material
+#  custom_dir: docs/theme_override_home/
+  # 404 page
+#  static_templates:
+#    - 404.html
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.expand
+  palette:
+    primary: indigo
+    accent: purple
+  font:
+    text: Roboto
+    code: Roboto Mono
+#  icon:  # from .icons path. Add to theme override for custom logo.
+#    logo: up42-logo  # top left header logo
+#  favicon: assets/logo-up42.ico #browser tab logo
+#
+## Plugins
+# plugins:
+  # - blog
+  # - rss:
+  #     match_path: blog/posts/* 
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags 
+#  - search
+#  - autolinks
+#  - mkdocs-jupyter:
+#      include_source: False
+#      ignore_h1_titles: True
+#      include: ["examples/data-block-examples/pleiades-download-example.ipynb",
+#                "examples/data-block-examples/nextmapone-viewshed-data-example.ipynb",
+#                "examples/data-block-examples/osm-example.ipynb",
+#                "examples/advanced/ship-identification.ipynb",
+#                "examples/tasking/tasking-example.ipynb",
+#                "examples/asset/asset-example.ipynb"]
+#  - macros:
+#      module_name: docs/macros
+#  - exclude:
+#      glob:
+#        - "*config*.json"
+#        - "*cfg*.json"
+#        - ".ipynb_checkpoints"
+#        - "*examples/project*"
+#        - "*swagger*"
+#        - PULL_REQUEST_TEMPLATE.md
+#  - mkdocstrings:
+#      default_handler: python
+#      handlers:
+#        python:
+#          rendering:
+#            show_root_toc_entry: False
+#            show_root_heading: False
+#            show_source: True
+#            show_category_heading: True
+#            show_bases: False
+#          selection:
+#            filters:
+#              - "!^_"  # exclude all members starting with _
+#      watch:
+#        - up42
+#
+### Custom theme additions
+#extra_javascript:
+#        - 'stylesheets/extra.js'
+#extra_css:
+#        - stylesheets/extra.css
+#
+### Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.md_in_html
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+#  - markdown.extensions.toc:
+#      baselevel: 1
+#      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
