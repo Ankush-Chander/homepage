@@ -1,15 +1,15 @@
 ---
 hide:
-  - navigation
-  - toc
+- toc
 ---
 
-# Ankush Chander
+# Home
 
+## About {: #about }
 <div class="person">
         <img src="/../images/ankush_chander.jpeg" alt="Ankush Chander" style="width:200px; height:200px; border-radius:50%;">
         <div class="info">
-I am PhD student at <span><a href="https://dau.ac.in" target="_blank">Dhirubhai Ambani University</a></span> and  <span><a href="https://kdmlab.daiict.ac.in" target="_blank">KDM Lab</a></span> fellow. My interests lie in natural lanuage processing in scholarly articles. I am also interested in LLM evaluation and model investigation. I am currently working on Hypothesis Generation Evaluation.
+I am PhD student at <span><a href="https://dau.ac.in" target="_blank">Dhirubhai Ambani University</a></span> and  <span><a href="https://kdmlab.daiict.ac.in" target="_blank">KDM Lab</a></span> fellow. My interests lie in natural language processing in scholarly articles. I am also interested in LLM evaluation and model investigation. I am currently working on Hypothesis Generation Evaluation.
             <div><a href="https://github.com/Ankush-Chander" target="_blank"><img width="20px" height="20px" src="../images/github.svg" alt="Github" ></a>
             <a href="https://scholar.google.com/citations?user=FJBupV4AAAAJ&hl=en" target="_blank"><img width="20px" height="20px" src="../images/google-scholar.svg" alt="Google Scholar" ></a>
             <a href="https://www.linkedin.com/in/ankush-chander" target="_blank"><img width="20px" height="20px" src="../images/linkedin.svg" alt="LinkedIn" ></a>
@@ -17,6 +17,44 @@ I am PhD student at <span><a href="https://dau.ac.in" target="_blank">Dhirubhai 
         </div>
 </div>
 
+---
+
+## Publications {: #publications }
+**[PerSEval: Assessing Personalization in Text Summarizers](https://arxiv.org/pdf/2407.00453)**  
+Sourish Dasgupta, **Ankush Chander**, Parth Borad, Isha Motiyani, Tanmoy Chakraborty  
+TMLR 2024
+
+**[Are Large Language Models In-Context Personalized Summarizers? Get an iCOPERNICUS Test Done!](https://arxiv.org/pdf/2410.00149)**  
+Divya Patel, Pathik Patel, **Ankush Chander**, Sourish Dasgupta, Tanmoy Chakraborty  
+EMNLP 2024
+
+---
+
+## Education {: #education }
+- **PhD in Computer Science**
+Dhirubhai Ambani University (2025 - Present)
+
+- **M.Tech(ICT) in Computer Science**
+Dhirubhai Ambani University(formerly DAIICT) (2014 - 2016)
+
+- **B.Tech in Computer Science**
+GB Pant University of Agriculture and Technology (2007 - 2011)
+
+---
+
+## Work Experiences {: #work-experiences }  
+- **Faculty, Dhirubhai Ambani University (2024 - Present)**  
+    - Taught Data Structures Lab course to undergraduate students  
+    - Taught Introduction to Programming (Python), Software Design and Testing to postgraduate students  
+
+- **Research Engineer, Enago Read(formerly RAx) (2016-2023)**  
+    - Set up and maintain the backend infrastructure  
+    - Developed NLP powered tools for scholarly article processing including paper recommendation engine, summarizer  
+
+- **Web developer, MothersonSumi Infotech and Designs Ltd. (2011 - 2014)**  
+    - Developed web applications for clients  
+
+---
 
 **Email:**  
 ankush_chander@dau.ac.in  
@@ -54,11 +92,11 @@ ankush.watchtower@gmail.com
         margin: 0 auto; /* Centers the image horizontally */
     }
 
-    a {
+    /* a {
         color: #3366cc;
         text-decoration: none;
         display: inline!important;
-    }
+    } */
 
     @media (max-width: 768px) {
         .person {

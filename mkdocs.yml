@@ -9,12 +9,16 @@ copyright: Ankush Chander
 
 ## Page tree
 nav:
-    - Home: index.md
-    - About: about.md
-    # - Projects: projects.md
-    # - 'Publications': 'publications.md'
-    # - 'Teaching': 'teaching.md'
-    - 'Talks': 'talks.md'
+    - Home:
+      - index.md
+      - About: '#about'
+      - Publications: '#publications'
+      - Education: '#education'
+      - Work Experiences: '#work-experiences'
+    - Talks: 
+      - talks.md
+    - Projects:
+      - projects.md
     # - Blog:
     #     - blog/index.md
 
@@ -35,6 +39,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.expand
+    - navigation.indexes
   palette:
     primary: indigo
     accent: purple
