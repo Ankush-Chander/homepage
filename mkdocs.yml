@@ -13,12 +13,11 @@ nav:
       - index.md
       - About: '#about'
       - Publications: '#publications'
+      - Talks: '#talks'
       - Education: '#education'
       - Work Experiences: '#work-experiences'
-    - Talks: 
-      - talks.md
-    - Projects:
-      - projects.md
+    # - Projects:
+    #   - projects.md
     # - Blog:
     #     - blog/index.md
 
