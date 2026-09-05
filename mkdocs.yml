@@ -11,11 +11,6 @@ copyright: Ankush Chander
 nav:
   - Home:
     - index.md
-    - About: '#about'
-    - Publications: '#publications'
-    - Talks: '#talks'
-    - Education: '#education'
-    - Work Experiences: '#work-experiences'
   - Blog: 
     - blog/index.md
   - Recommendations: 
@@ -39,6 +34,8 @@ theme:
     - navigation.tabs
     - navigation.expand
     - navigation.footer
+    - navigation.top
+    - toc.integrate
     # - navigation.indexes
   palette:
     primary: indigo
@@ -135,7 +132,6 @@ hooks:
 #
 ### Extensions
 markdown_extensions:
-  - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
