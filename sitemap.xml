@@ -2,30 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ankushchander.com/</loc>
-         <lastmod>2026-01-07</lastmod>
-    </url>
-    <url>
-         <loc>https://ankushchander.com/lygometry/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <lastmod>2026-09-05</lastmod>
     </url>
     <url>
          <loc>https://ankushchander.com/recommendations/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <lastmod>2026-09-05</lastmod>
     </url>
     <url>
          <loc>https://ankushchander.com/blog/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <lastmod>2026-09-05</lastmod>
     </url>
     <url>
          <loc>https://ankushchander.com/blog/beginner-mindset/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <lastmod>2026-09-05</lastmod>
+    </url>
+    <url>
+         <loc>https://ankushchander.com/blog/find-heart/</loc>
+         <lastmod>2026-09-05</lastmod>
     </url>
     <url>
          <loc>https://ankushchander.com/blog/archive/2026/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <lastmod>2026-09-05</lastmod>
     </url>
     <url>
          <loc>https://ankushchander.com/blog/category/self_improvement/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <lastmod>2026-09-05</lastmod>
+    </url>
+    <url>
+         <loc>https://ankushchander.com/blog/category/career/</loc>
+         <lastmod>2026-09-05</lastmod>
+    </url>
+    <url>
+         <loc>https://ankushchander.com/blog/category/ai/</loc>
+         <lastmod>2026-09-05</lastmod>
     </url>
 </urlset>
