@@ -5,4 +5,3 @@ description: "Books, basketball, computers, life"
 categories:
   - self_improvement 
 ---
-

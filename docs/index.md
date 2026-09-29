@@ -9,7 +9,7 @@ hide:
 <div class="person">
         <img src="/../images/ankush_chander.jpeg" alt="Ankush Chander" style="width:200px; height:200px; border-radius:50%;">
         <div class="info">
-I am PhD student at <span><a href="https://dau.ac.in" target="_blank">Dhirubhai Ambani University</a></span> and  <span><a href="https://kdmlab.daiict.ac.in" target="_blank">KDM Lab</a></span> fellow. My interests lie in natural language processing in scholarly articles. I am also interested in LLM evaluation and model investigation. I am currently working on Hypothesis Generation Evaluation.
+I am faculty at <span><a href="https://dau.ac.in" target="_blank">Dhirubhai Ambani University</a></span> and an independent research engineer. My interests lie in distributed systems and Systems Programming. I am also interested in LLM inferencing and Agentic AI. I am currently working on <span><a href="https://sheshnag.io" target="_blank">Sheshnag</a></span>.
             <div><a href="https://github.com/Ankush-Chander" target="_blank"><img width="20px" height="20px" src="../images/github.svg" alt="Github" ></a>
             <a href="https://scholar.google.com/citations?user=FJBupV4AAAAJ&hl=en" target="_blank"><img width="20px" height="20px" src="../images/google-scholar.svg" alt="Google Scholar" ></a>
             <a href="https://www.linkedin.com/in/ankush-chander" target="_blank"><img width="20px" height="20px" src="../images/linkedin.svg" alt="LinkedIn" ></a>
@@ -42,8 +42,8 @@ EMNLP 2024
 
 
 ## Education {: #education }
-- **PhD in Computer Science**
-Dhirubhai Ambani University (2025 - Present)
+- **PhD in Computer Science (dropped)**
+Dhirubhai Ambani University (2025 - 2026)
 
 - **M.Tech(ICT) in Computer Science**
 Dhirubhai Ambani University(formerly DAIICT) (2014 - 2016)

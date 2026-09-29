@@ -1,15 +1,15 @@
 from textwrap import dedent
 import urllib.parse
-import re
+
+from material.plugins.blog.structure import Post
 
 x_intent = "https://x.com/intent/tweet"
 fb_sharer = "https://www.facebook.com/sharer/sharer.php"
-include = re.compile(r"blog/[1-9].*")
 
 def on_page_markdown(markdown, **kwargs):
     page = kwargs['page']
     config = kwargs['config']
-    if not include.match(page.url):
+    if not isinstance(page, Post):
         return markdown
 
     page_url = config.site_url+page.url
